@@ -36,3 +36,14 @@ build/
 
 ### Mac OS ###
 .DS_Store
+# IntelliJ IDEA in subprojects
+demo1/.idea/
+playwright_demo/.idea/
+
+# Maven build output
+**/target/
+
+# Generated browser screenshots
+playwright_demo/screenshots/
+.idea/sonarlint/
+.idea/uiDesigner.xml
