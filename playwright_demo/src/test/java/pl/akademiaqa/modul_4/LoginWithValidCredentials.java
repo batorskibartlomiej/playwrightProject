@@ -11,7 +11,7 @@ import pl.akademiaqa.common.BaseTest;
 
          // Naviguje do strony logowania
          page.navigate("http://localhost:7080/login");
-         System.out.println("test");
+
 
          // Wypełnia pole użytkownika nazwą użytkownika "tomsmith"
          page.fill("#username","tomsmith");
